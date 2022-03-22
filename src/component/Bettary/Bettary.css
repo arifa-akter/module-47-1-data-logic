@@ -1,0 +1,58 @@
+.main{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.main-bettary{
+    margin: 0 auto;
+    width: 200px;
+    height: 305px;
+    border:2px solid green;
+    position: relative;
+}
+#icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.main-bettary::after {
+    position: absolute;
+    content: '';
+    width: 32px;
+    height: 8px;
+    background: green;
+    top: -10px;
+    left: 83px;
+}
+
+
+.bettary-cell {
+    margin: 4px;
+    width: 192px;
+    height: 56px;
+    background-color: green;
+}
+#first-cell{
+    background: none;
+}
+#second-cell{
+    background: none;
+}
+#third-cell{
+    background: none;
+}
+#fourth-cell{
+    background: none;
+}
+#fiv-cell{
+    background: red; 
+}
+.fa-bolt{
+    font-size:80px;
+    color: rgb(248, 248, 8);
+}
